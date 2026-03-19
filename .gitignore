@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# build files
+dist/
+build/
+
+# env files
+.env
+.env.local
+.env.development
+.env.production
+
+# logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+
+# coverage
+coverage/
+
+# backend data (IMPORTANT)
+backend/data/contacts.json
